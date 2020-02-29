@@ -101,7 +101,7 @@ module.exports = File = (function() {
       length = null;
     }
     length || (length = this.readInt());
-    return iconv.decode(new Buffer(this.read(length * 2)), 'utf-16be').replace(/\u0000/g, "");
+    return iconv.decode(Buffer.from(this.read(length * 2)), 'utf-16be').replace(/\u0000/g, "");
   };
 
   File.prototype.readByte = function() {

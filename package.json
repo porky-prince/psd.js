@@ -10,21 +10,22 @@
   "homepage": "https://github.com/porky-prince/psd.js#readme",
   "repository": "https://github.com/porky-prince/psd.js",
   "bugs": "https://github.com/porky-prince/psd.js/issues",
-  "main": "./index.js",
+  "main": "./src/psd.js",
   "scripts": {
-    "test": "mocha test",
+    "test": "jest",
     "docs": "node_modules/docco-husky/bin/generate lib shims"
   },
   "dependencies": {
-    "coffee-script": "^1.7.1",
-    "iconv-lite": "^0.4.13",
+    "iconv-lite": "^0.5.1",
     "jspack": "0.0.4",
     "lodash": "^4.17.15",
     "parse-engine-data": "^0.1.2",
     "pngjs": "^3.4.0",
     "rsvp": "^3.0.21"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
   "keywords": [
     "psd",
     "parser",

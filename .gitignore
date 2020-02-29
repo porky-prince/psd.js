@@ -1,5 +1,29 @@
-.DS_Store
-node_modules
-index.html
-output.png
+# IDE
 .idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules
+
+# log
+logs
+*.log
+
+# npm-debug log
+npm-debug.*
+
+# Jest Coverage
+coverage
+
+# eslint
+.eslintcache
+
+# custom
+dist
+test/output

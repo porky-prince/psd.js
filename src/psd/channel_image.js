@@ -22,7 +22,7 @@ module.exports = ChannelImage = (function(superClass) {
     this._height = this.layer.height;
     ChannelImage.__super__.constructor.call(this, file, header);
     this.channelsInfo = this.layer.channelsInfo;
-    this.hasMask = _.any(this.channelsInfo, function(c) {
+    this.hasMask = _.some(this.channelsInfo, function(c) {
       return c.id < -1;
     });
     this.opacity = this.layer.opacity / 255.0;
