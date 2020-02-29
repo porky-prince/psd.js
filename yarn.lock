@@ -770,11 +770,6 @@ co@^4.6.0:
   resolved "https://registry.npm.taobao.org/co/download/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
   integrity sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ=
 
-coffee-script@^1.7.1:
-  version "1.12.7"
-  resolved "https://registry.npm.taobao.org/coffee-script/download/coffee-script-1.12.7.tgz?cache=0&sync_timestamp=1560427549197&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcoffee-script%2Fdownload%2Fcoffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
-  integrity sha1-wF2uDLeVkdBbMHCoQzqYyaiczFM=
-
 collect-v8-coverage@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/collect-v8-coverage/download/collect-v8-coverage-1.0.0.tgz#150ee634ac3650b71d9c985eb7f608942334feb1"
@@ -2097,7 +2092,7 @@ json5@^2.1.0:
   dependencies:
     minimist "^1.2.0"
 
-jspack@0.0.4:
+jspack@^0.0.4:
   version "0.0.4"
   resolved "https://registry.npm.taobao.org/jspack/download/jspack-0.0.4.tgz#32dd35c7fdcb3e3456c18fbb7ef9ed0bc6238177"
   integrity sha1-Mt01x/3LPjRWwY+7fvntC8YjgXc=
@@ -2745,12 +2740,7 @@ rimraf@^3.0.0:
   dependencies:
     glob "^7.1.3"
 
-rsvp@^3.0.21:
-  version "3.6.2"
-  resolved "https://registry.npm.taobao.org/rsvp/download/rsvp-3.6.2.tgz#2e96491599a96cde1b515d5674a8f7a91452926a"
-  integrity sha1-LpZJFZmpbN4bUV1WdKj3qRRSkmo=
-
-rsvp@^4.8.4:
+rsvp@^4.8.4, rsvp@^4.8.5:
   version "4.8.5"
   resolved "https://registry.npm.taobao.org/rsvp/download/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha1-yPFVMR0Wf2jyHhaN9x7FsIMRNzQ=

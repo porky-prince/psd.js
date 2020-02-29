@@ -17,11 +17,11 @@
   },
   "dependencies": {
     "iconv-lite": "^0.5.1",
-    "jspack": "0.0.4",
+    "jspack": "^0.0.4",
     "lodash": "^4.17.15",
     "parse-engine-data": "^0.1.2",
     "pngjs": "^3.4.0",
-    "rsvp": "^3.0.21"
+    "rsvp": "^4.8.5"
   },
   "devDependencies": {
     "jest": "^25.1.0"
