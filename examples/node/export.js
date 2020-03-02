@@ -7,4 +7,4 @@ PSD.open(file).then(function (psd) {
   return psd.image.saveAsPng('./output.png');
 }).then(function () {
   console.log("Finished in " + ((new Date()) - start) + "ms");
-});;
+});

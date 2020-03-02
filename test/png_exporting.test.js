@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const PSD = require('../src/psd');
+const PSD = require('../');
 const outputPath = path.join(__dirname, "output");
 const fixturesPath = path.join(__dirname, "fixtures");
 
