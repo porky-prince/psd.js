@@ -17,7 +17,7 @@ describe("exporting from a PSD", () => {
         fs.existsSync(filePath) && fs.unlinkSync(filePath);
     });
 
-    test("should export a png", () => {
+    test("should export a png file", () => {
         return PSD.open(psdPath).then(psd => {
             return psd.image.saveAsPng(filePath);
         }).then(() => {
